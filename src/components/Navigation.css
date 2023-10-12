@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+
+    box-shadow: 0 1px 7px rgba(0,0,0,0.7);
+
+    background-color: #fff;
+}
+
+.navigation p {
+    cursor: pointer;
+}
+
+
+.section3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+
+.section1, .section2, .section3 {
+    width: 100%;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 > p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+

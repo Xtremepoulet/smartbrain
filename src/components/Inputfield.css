@@ -1,0 +1,42 @@
+.inputfield {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+
+}
+
+.inputfield {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.submitForm input {
+    min-width: 300px;
+    border: thin solid black;
+}
+
+.submitForm button {
+    min-width: 100px;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.submitForm {
+    display: flex;
+    gap: 5px;
+}
+
+.submitForm button, input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submitForm button:hover {
+    transform: scale(1.05);
+}
+
